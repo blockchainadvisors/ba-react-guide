@@ -19,7 +19,8 @@ import Guide from 'ba-react-guide'
 
 class Example extends Component {
   render() {
-    return <Guide csvFile="https://blockchainadvisors.ltd/some-file.csv" storageKey="KEY_GUIDE" overrideStyle={} />
+    // If you are using this component on multiple sites, use unique storageKey to prevent overlap
+    return <Guide csvFile="https://blockchainadvisors.ltd/some-file.csv" storageKey="KEY_GUIDE" />
   }
 }
 ```
