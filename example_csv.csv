@@ -1,0 +1,4 @@
+Target,Content
+body,"<p>In order to use this site, you must connect a MetaMask account! 😇</p>"
+body,"<p>To add the extension, press on to <a href=""https://metamask.io/download/"" style=""text-decoration: underline"" target=""_blank"" rel=""noopener noreferrer"">MetaMask</a> and add it to your browser! 😉</p>"
+.signInMessage button,<p>You can now click here and connect your account! 🎉</p>

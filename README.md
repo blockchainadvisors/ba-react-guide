@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save ba-react-guide
+npm install ba-react-guide
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save ba-react-guide
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'ba-react-guide'
-import 'ba-react-guide/dist/index.css'
+import Guide from 'ba-react-guide'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Guide csvFile="https://blockchainadvisors.ltd/some-file.csv" storageKey="KEY_GUIDE" overrideStyle={} />
   }
 }
 ```
