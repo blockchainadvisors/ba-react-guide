@@ -109,7 +109,7 @@ const Guide = ({
   }
 
   // Render nothing if Guide is already complete
-  if (localStorage.getItem(storageKey)) return <></>
+  if (localStorage.getItem(storageKey)) return <div />
 
   return (
     <Joyride
